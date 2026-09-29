@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Not found</title>
+<meta name="robots" content="noindex">
+<script>
+var p = location.pathname;
+if (p === "/regrade" || p.indexOf("/regrade/") === 0) location.replace("/behavtest" + p.slice("/regrade".length) + location.search + location.hash);
+</script>
+</head>
+<body>
+<p>Page not found. Looking for Regrade? It is now <a href="https://dhrumilbhut.github.io/behavtest/">BehavTest</a>.</p>
+</body>
+</html>
